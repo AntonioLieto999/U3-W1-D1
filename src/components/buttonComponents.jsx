@@ -1,4 +1,7 @@
-function ButtonComponent() {
-  return <button>Premi per vedere il cielo</button>;
+import React from "react";
+
+function ButtonComponent(props) {
+  return <button onClick={props.onClick}>Click Me</button>;
 }
+
 export default ButtonComponent;
